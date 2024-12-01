@@ -357,7 +357,7 @@ int satMul3(int x)
     //g=~t;
     //op1=(op^(x>>31))&g;
     ans=ans&(~op1);
-    ans=ans|((op1<<31)+(((~(op&1))+1)&(op1)));
+    ans=ans|((op1<<31)+(op&(op1)));
     return ans;
 }
 /*
@@ -439,7 +439,7 @@ int satAdd(int x, int y)
     //op1=(op^(x>>31))&g;
     op1=((x^ans)&(y^ans))>>31;
     ans=ans&(~op1);
-    ans=ans|((op1<<31)+(((~(op&1))+1)&(op1)));
+    ans=ans|((op1<<31)+(op&(op1)));
     return ans;
 }
 /*
