@@ -1,0 +1,47 @@
+
+Relocation section '.rel.text' at offset 0x558 contains 22 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000009  00000901 R_386_NONE       
+00000018  00000501 R_386_32          00000000   .rodata
+00000029  00000901 R_386_32          00000000   ZufcQN
+0000003d  00000901 R_386_32          00000000   ZufcQN
+0000004e  00000901 R_386_32          00000000   ZufcQN
+00000060  00000901 R_386_NONE       
+0000006f  00000901 R_386_32          00000000   ZufcQN
+0000008b  00000c01 R_386_32          0000000b   CODE
+0000009b  00000c01 R_386_32          0000000b   CODE
+000000a7  00000d02 R_386_PC32        00000000   transform_code
+000000af  00000c01 R_386_32          0000000b   CODE
+000000cf  00001002 R_386_PC32        00000000   strlen
+000000fb  00000a01 R_386_NONE       
+00000102  00000c01 R_386_32          0000000b   CODE
+00000153  00000e02 R_386_PC32        00000081   generate_code
+0000015e  00000b01 R_386_32          00000000   BUF
+00000163  00000f02 R_386_NONE       
+0000016e  00000b01 R_386_32          00000000   BUF
+00000173  00001202 R_386_PC32        00000000   puts
+0000017b  00001301 R_386_32          00000000   notify
+00000188  00000b01 R_386_32          00000000   BUF
+0000018f  00001402 R_386_PC32        00000000   client
+
+Relocation section '.rel.data' at offset 0x608 contains 1 entry:
+ Offset     Info    Type            Sym.Value  Sym. Name
+0000000c  00001101 R_386_32          00000147   do_phase
+
+Relocation section '.rel.rodata' at offset 0x610 contains 8 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+000000c0  00000201 R_386_32          00000000   .text
+000000c4  00000201 R_386_NONE       
+000000c8  00000201 R_386_NONE       
+000000cc  00000201 R_386_32          00000000   .text
+000000d0  00000201 R_386_32          00000000   .text
+000000d4  00000201 R_386_NONE       
+000000d8  00000201 R_386_NONE       
+000000dc  00000201 R_386_NONE       
+
+Relocation section '.rel.eh_frame' at offset 0x650 contains 4 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000020  00000202 R_386_PC32        00000000   .text
+00000040  00000202 R_386_PC32        00000000   .text
+00000060  00000202 R_386_PC32        00000000   .text
+00000080  00000202 R_386_PC32        00000000   .text

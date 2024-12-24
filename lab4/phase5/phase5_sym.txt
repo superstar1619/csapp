@@ -1,0 +1,25 @@
+
+Symbol table '.symtab' contains 22 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FILE    LOCAL  DEFAULT  ABS phase5.c
+     2: 00000000     0 SECTION LOCAL  DEFAULT    1 .text
+     3: 00000000     0 SECTION LOCAL  DEFAULT    3 .data
+     4: 00000000     0 SECTION LOCAL  DEFAULT    5 .bss
+     5: 00000000     0 SECTION LOCAL  DEFAULT    6 .rodata
+     6: 00000000     0 SECTION LOCAL  DEFAULT    9 .note.GNU-stack
+     7: 00000000     0 SECTION LOCAL  DEFAULT   10 .eh_frame
+     8: 00000000     0 SECTION LOCAL  DEFAULT    8 .comment
+     9: 00000000    52 OBJECT  GLOBAL DEFAULT    6 ZufcQN //13
+    10: 00000040   128 OBJECT  GLOBAL DEFAULT    6 yuOdjn //32
+    11: 00000000    11 OBJECT  GLOBAL DEFAULT    3 BUF
+    12: 0000000b     1 OBJECT  GLOBAL DEFAULT    3 CODE
+    13: 00000000   129 FUNC    GLOBAL DEFAULT    1 transform_code
+    14: 00000081    65 FUNC    GLOBAL DEFAULT    1 generate_code
+    15: 000000c2   133 FUNC    GLOBAL DEFAULT    1 encode
+    16: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND strlen
+    17: 00000147    82 FUNC    GLOBAL DEFAULT    1 do_phase
+    18: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND puts
+    19: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND notify
+    20: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND client
+    21: 0000000c     4 OBJECT  GLOBAL DEFAULT    3 phase

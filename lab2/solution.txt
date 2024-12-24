@@ -1,0 +1,7 @@
+The moon unit will be divided into two divisions.
+1 2 4 8 16 32
+0 1000
+11 18 hamster
+=63487
+6 1 4 5 2 3
+47
